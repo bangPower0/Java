@@ -22,6 +22,7 @@ public class MailClient {
     @Value("${spring.mail.username}")
     private String from;
 
+    // 写一个共有的方法，方便外界调用它
     public void sendMail(String to, String subject, String content) {
         try {
             MimeMessage message = mailSender.createMimeMessage();
