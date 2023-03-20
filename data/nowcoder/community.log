@@ -3,3 +3,8 @@
 2023-03-20 13:32:29.150  INFO 17756 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
 2023-03-20 13:32:30.176  INFO 17756 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2023-03-20 13:32:30.432  INFO 17756 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.562 seconds (JVM running for 2.077)
+2023-03-20 13:37:31.463  INFO 18680 --- [main] com.nowcoder.community.MailTests         : Starting MailTests using Java 11.0.18 on DESKTOP-E412JJD with PID 18680 (started by Liang in F:\JavaProject\community)
+2023-03-20 13:37:31.465 DEBUG 18680 --- [main] com.nowcoder.community.MailTests         : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-20 13:37:31.465  INFO 18680 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
+2023-03-20 13:37:32.463  INFO 18680 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-20 13:37:32.731  INFO 18680 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.528 seconds (JVM running for 1.998)
