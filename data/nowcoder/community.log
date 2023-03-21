@@ -1,10 +1,138 @@
-2023-03-20 13:32:29.146  INFO 17756 --- [main] com.nowcoder.community.MailTests         : Starting MailTests using Java 11.0.18 on DESKTOP-E412JJD with PID 17756 (started by Liang in F:\JavaProject\community)
-2023-03-20 13:32:29.150 DEBUG 17756 --- [main] com.nowcoder.community.MailTests         : Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-03-20 13:32:29.150  INFO 17756 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
-2023-03-20 13:32:30.176  INFO 17756 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-03-20 13:32:30.432  INFO 17756 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.562 seconds (JVM running for 2.077)
-2023-03-20 13:37:31.463  INFO 18680 --- [main] com.nowcoder.community.MailTests         : Starting MailTests using Java 11.0.18 on DESKTOP-E412JJD with PID 18680 (started by Liang in F:\JavaProject\community)
-2023-03-20 13:37:31.465 DEBUG 18680 --- [main] com.nowcoder.community.MailTests         : Running with Spring Boot v2.7.9, Spring v5.3.25
-2023-03-20 13:37:31.465  INFO 18680 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
-2023-03-20 13:37:32.463  INFO 18680 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2023-03-20 13:37:32.731  INFO 18680 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.528 seconds (JVM running for 1.998)
+2023-03-21 11:44:06.918  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 11.0.18 on DESKTOP-E412JJD with PID 1432 (F:\JavaProject\community\target\classes started by Liang in F:\JavaProject\community)
+2023-03-21 11:44:06.923 DEBUG 1432 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 11:44:06.923  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 11:44:06.949  INFO 1432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-03-21 11:44:06.949  INFO 1432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-03-21 11:44:07.507  INFO 1432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-21 11:44:07.513  INFO 1432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-21 11:44:07.513  INFO 1432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-21 11:44:07.550  INFO 1432 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2023-03-21 11:44:07.550  INFO 1432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 600 ms
+2023-03-21 11:44:07.822  INFO 1432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 11:44:07.902  INFO 1432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-21 11:44:07.921  INFO 1432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-21 11:44:07.928  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 1.215 seconds (JVM running for 1.838)
+2023-03-21 11:44:38.096  INFO 1432 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-03-21 11:44:38.097  INFO 1432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-03-21 11:44:38.097  INFO 1432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-03-21 11:44:38.132  INFO 1432 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-03-21 11:44:38.216  INFO 1432 --- [http-nio-8080-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-03-21 11:44:38.220 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostRows          : ==>  Preparing: select count(id) from discuss_post where status != 2
+2023-03-21 11:44:38.230 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostRows          : ==> Parameters: 
+2023-03-21 11:44:38.241 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPostRows          : <==      Total: 1
+2023-03-21 11:44:38.244 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPosts             : ==>  Preparing: select id, user_id, title, content, type, status, create_time, comment_count, score from discuss_post where status != 2 order by type desc, create_time desc limit ?, ?
+2023-03-21 11:44:38.245 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPosts             : ==> Parameters: 0(Integer), 10(Integer)
+2023-03-21 11:44:38.250 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.c.d.D.selectDiscussPosts             : <==      Total: 10
+2023-03-21 11:44:38.251 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.251 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 11(Integer)
+2023-03-21 11:44:38.252 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.252 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.252 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 111(Integer)
+2023-03-21 11:44:38.253 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.253 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.254 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2023-03-21 11:44:38.255 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.255 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.255 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2023-03-21 11:44:38.256 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.256 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.257 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 149(Integer)
+2023-03-21 11:44:38.257 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.257 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.257 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 146(Integer)
+2023-03-21 11:44:38.258 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.258 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.259 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 145(Integer)
+2023-03-21 11:44:38.259 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.259 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.259 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
+2023-03-21 11:44:38.260 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.260 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.260 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 138(Integer)
+2023-03-21 11:44:38.261 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:44:38.261 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==>  Preparing: select id, username, password, salt, email, type, status, activation_code, header_url, create_time from user where id = ?
+2023-03-21 11:44:38.261 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : ==> Parameters: 103(Integer)
+2023-03-21 11:44:38.262 DEBUG 1432 --- [http-nio-8080-exec-1] c.n.community.dao.UserMapper.selectById  : <==      Total: 1
+2023-03-21 11:48:40.966  INFO 1432 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-21 11:48:41.164  INFO 1432 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-21 11:48:41.165  INFO 1432 --- [Thread-5] o.a.c.c.C.[.[localhost].[/community]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-03-21 11:48:41.168  WARN 1432 --- [Thread-5] o.a.c.loader.WebappClassLoaderBase       : The web application [community] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.18/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.18/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:234)
+ java.base@11.0.18/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2123)
+ java.base@11.0.18/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@11.0.18/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.18/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.18/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.18/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.18/java.lang.Thread.run(Thread.java:834)
+2023-03-21 11:48:41.173  INFO 1432 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-03-21 11:48:41.182  INFO 1432 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-03-21 11:48:41.227  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 11.0.18 on DESKTOP-E412JJD with PID 1432 (F:\JavaProject\community\target\classes started by Liang in F:\JavaProject\community)
+2023-03-21 11:48:41.227 DEBUG 1432 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 11:48:41.227  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 11:48:41.376  INFO 1432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-21 11:48:41.377  INFO 1432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-21 11:48:41.377  INFO 1432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-21 11:48:41.387  INFO 1432 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2023-03-21 11:48:41.387  INFO 1432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 159 ms
+2023-03-21 11:48:41.443  INFO 1432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 11:48:41.463  INFO 1432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-21 11:48:41.469  INFO 1432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-21 11:48:41.472  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.259 seconds (JVM running for 275.381)
+2023-03-21 11:48:41.472  INFO 1432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-21 11:48:41.948  INFO 9832 --- [main] com.nowcoder.community.MailTests         : Starting MailTests using Java 11.0.18 on DESKTOP-E412JJD with PID 9832 (started by Liang in F:\JavaProject\community)
+2023-03-21 11:48:41.949 DEBUG 9832 --- [main] com.nowcoder.community.MailTests         : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 11:48:41.950  INFO 9832 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 11:48:42.938  INFO 9832 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 11:48:43.158  INFO 9832 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.48 seconds (JVM running for 1.999)
+2023-03-21 11:50:06.333  INFO 1432 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-21 11:50:06.496  INFO 15576 --- [main] com.nowcoder.community.MailTests         : Starting MailTests using Java 11.0.18 on DESKTOP-E412JJD with PID 15576 (started by Liang in F:\JavaProject\community)
+2023-03-21 11:50:06.496 DEBUG 15576 --- [main] com.nowcoder.community.MailTests         : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 11:50:06.497  INFO 15576 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 11:50:06.545  INFO 1432 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-21 11:50:06.585  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 11.0.18 on DESKTOP-E412JJD with PID 1432 (F:\JavaProject\community\target\classes started by Liang in F:\JavaProject\community)
+2023-03-21 11:50:06.585 DEBUG 1432 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 11:50:06.585  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 11:50:06.708  INFO 1432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-21 11:50:06.709  INFO 1432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-21 11:50:06.709  INFO 1432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-21 11:50:06.719  INFO 1432 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2023-03-21 11:50:06.719  INFO 1432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 132 ms
+2023-03-21 11:50:06.768  INFO 1432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 11:50:06.784  INFO 1432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-21 11:50:06.789  INFO 1432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-21 11:50:06.791  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.22 seconds (JVM running for 360.701)
+2023-03-21 11:50:06.792  INFO 1432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-21 11:50:07.523  INFO 15576 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 11:50:07.803  INFO 15576 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.578 seconds (JVM running for 2.022)
+2023-03-21 11:55:55.096  INFO 11832 --- [main] com.nowcoder.community.MailTests         : Starting MailTests using Java 11.0.18 on DESKTOP-E412JJD with PID 11832 (started by Liang in F:\JavaProject\community)
+2023-03-21 11:55:55.097 DEBUG 11832 --- [main] com.nowcoder.community.MailTests         : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 11:55:55.098  INFO 11832 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 11:55:56.239  INFO 11832 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 11:55:56.546  INFO 11832 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.828 seconds (JVM running for 2.416)
+2023-03-21 11:57:20.973  INFO 9160 --- [main] com.nowcoder.community.MailTests         : Starting MailTests using Java 11.0.18 on DESKTOP-E412JJD with PID 9160 (started by Liang in F:\JavaProject\community)
+2023-03-21 11:57:20.973 DEBUG 9160 --- [main] com.nowcoder.community.MailTests         : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 11:57:20.974  INFO 9160 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 11:57:22.086  INFO 9160 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 11:57:22.398  INFO 9160 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.682 seconds (JVM running for 2.154)
+2023-03-21 12:01:00.105  INFO 1432 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-03-21 12:01:00.295  INFO 1432 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-03-21 12:01:00.359  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : Starting CommunityApplication using Java 11.0.18 on DESKTOP-E412JJD with PID 1432 (F:\JavaProject\community\target\classes started by Liang in F:\JavaProject\community)
+2023-03-21 12:01:00.359 DEBUG 1432 --- [restartedMain] c.n.community.CommunityApplication       : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 12:01:00.360  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 12:01:00.495  INFO 1432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-03-21 12:01:00.495  INFO 1432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-03-21 12:01:00.495  INFO 1432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-03-21 12:01:00.509  INFO 1432 --- [restartedMain] o.a.c.c.C.[.[localhost].[/community]     : Initializing Spring embedded WebApplicationContext
+2023-03-21 12:01:00.509  INFO 1432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 148 ms
+2023-03-21 12:01:00.572  INFO 1432 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 12:01:00.590  INFO 11856 --- [main] com.nowcoder.community.MailTests         : Starting MailTests using Java 11.0.18 on DESKTOP-E412JJD with PID 11856 (started by Liang in F:\JavaProject\community)
+2023-03-21 12:01:00.591 DEBUG 11856 --- [main] com.nowcoder.community.MailTests         : Running with Spring Boot v2.7.9, Spring v5.3.25
+2023-03-21 12:01:00.592  INFO 11856 --- [main] com.nowcoder.community.MailTests         : No active profile set, falling back to 1 default profile: "default"
+2023-03-21 12:01:00.597  INFO 1432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-03-21 12:01:00.603  INFO 1432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/community'
+2023-03-21 12:01:00.605  INFO 1432 --- [restartedMain] c.n.community.CommunityApplication       : Started CommunityApplication in 0.269 seconds (JVM running for 1014.516)
+2023-03-21 12:01:00.608  INFO 1432 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-03-21 12:01:01.754  INFO 11856 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-03-21 12:01:02.078  INFO 11856 --- [main] com.nowcoder.community.MailTests         : Started MailTests in 1.802 seconds (JVM running for 2.363)
